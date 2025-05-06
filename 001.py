@@ -1,0 +1,16 @@
+from b00 import Pessoa
+
+aluno01 = Pessoa(peso=78, nome="João Pedro", idade=22)
+aluno02 = Pessoa(peso=88, nome="Maria", idade=18)
+print(aluno01.nome)
+print(aluno01.idade)
+print(aluno01.peso)
+print(aluno02.nome)
+print(aluno02.idade)
+print(aluno02.peso)
+aluno01.comer("Cahorrão")
+aluno02.comer("Cahorrão")
+aluno01.falar()
+aluno02.falar()
+aluno01.dormir()
+aluno02.dormir()
